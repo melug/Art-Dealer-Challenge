@@ -44,7 +44,7 @@ I tried to achieve series of objectives and see where it goes, which includes:
    * New state of players is that highest bidder has added the painting to his collection and money is deduced from his pocket
    * New state of auction doesn't have current picture, and has highest bidder in set of players
    
-In the conclusion, I think I achieved more readable and correct code that can be written imperative alternatives.
+In the conclusion, I think I achieved more readable and correct code.
 
 Look at this code:
 ```
