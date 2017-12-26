@@ -55,7 +55,7 @@ countPainting ps = map (\p -> (head p, length p)) $ group (sort ps)
 -- | Add paintings which are not occured in the list of paintings.
 -- Also if number of paintings is greater than 4, fix it back to 4
 fixPaintingList :: [(Painting, Int)] -> [(Painting, Int)]
-fixPaintingList paintPairs = replacePainting paintPairs ++ absentPaintings
+fixPaintingList paintPairs = topPaintings paintPairs ++ absentPaintings
     where absentPaintings = zip (allPaintings \\ (fst $ unzip paintPairs)) (repeat 0)
 
 -- | If frequency is over 4, set back to 4
