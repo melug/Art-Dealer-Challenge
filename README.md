@@ -5,7 +5,7 @@ Objective of this simulation is not about solving the challenge, rather I focuse
 
 I tried to achieve series of objectives and see where it goes, which includes:
   
-## 1. Create data structure whenever it is possible. People claim that haskell is end of abstraction, let's check it out.
+## 1. Create data structure whenever it is possible. 
    
    Problem statement says we have 4 different categories for paintings namingly Red, Blue, Green, Yellow.
    In this part we could have used numbers for categories like 0 for Red, 1 for Red etc.
@@ -28,8 +28,8 @@ I tried to achieve series of objectives and see where it goes, which includes:
    I even created Bidder data structure for auction. Check that out! it made code very clean.
    
 ## 2. Abstract the problem as much as possible
-   
-   Let's talk about bidding process in the simulation.
+
+   Let's talk about implementation of bidding in the simulation.
    
    Thought process for imperative language could be like this:
    
