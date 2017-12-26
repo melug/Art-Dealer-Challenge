@@ -7,8 +7,6 @@ I tried to achieve series of objectives and see where it goes, which includes:
   
 1. Create data structure whenever it is possible. People claim that haskell is end of abstraction, let's check it out.
    
-   ### [Painting](https://github.com/melug/Art-Dealer-Challenge/blob/master/game.hs#L5)
-   
    Problem statement says we have 4 different categories for paintings namingly Red, Blue, Green, Yellow.
    In this part we could have used numbers for categories like 0 for Red, 1 for Red etc.
    But the problem is, this kind of storage can lead to difficult to understand "code". 
